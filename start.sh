@@ -69,8 +69,6 @@ elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
 	sleep 3
 	clear
 	exit
-
-else
 	bash start.sh
 fi
 
