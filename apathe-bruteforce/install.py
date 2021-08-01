@@ -33,7 +33,7 @@ class Install:
         self.is_reading = False 
 
     def install(self, name):
-        print('[+] Installing {} ...'.format(name))
+        print('[i] Paket İndiriliyor | {} ...'.format(name))
         cmd = 'pip install {}'.format(name)
         cmd = cmd.split()
 
@@ -41,7 +41,7 @@ class Install:
             self.is_installing = True 
             Popen(cmd).wait()
         except:
-            print('[!] Failed to install {}'.format(name))
+            print('[i] İndirme Başarısız | {}'.format(name))
         finally:
             print('\n')
             self.is_installing = False 
