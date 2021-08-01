@@ -69,6 +69,6 @@ elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
 	clear
 	exit
 else
-	bash start.sh
+	bash /$HOME/apathe-bruteforce/start.sh
 fi
 
