@@ -17,7 +17,8 @@ start(){
         |_______________________________________\n\n\n"
 
 
-
+	\e[33m[\e[37m      Wordlist Oluşturucu v3.2      \e[33m]
+	
 	rm -rf ../apathe-wordlist/wordlist.txt
 	rm -rf wordlist.txt
 	cd Lib/ && rm -rf kayit.php
