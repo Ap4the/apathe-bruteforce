@@ -45,6 +45,7 @@ banner(){
 banner
 
 if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
+	chmod 777
 	echo -e ""
 	read -p $'\e[31m[\e[32m#\e[31m]\e[37m Hedef Kullanıcı Adı : ' username
 	read -p $'\n\e[31m[\e[32m#\e[31m]\e[37m Şifre Listesi : ' password
@@ -57,7 +58,7 @@ elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
 	clear
 	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/install.py
 	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/requirements.txt
-	bash start.sh
+	bash /$HOME/apathe-bruteforce/start.sh
 	
 	elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
 	clear
