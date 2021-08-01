@@ -59,15 +59,16 @@ elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
 	clear
 	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/install.py
 	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/requirements.txt
-	bash /$HOME/apathe-bruteforce/start.sh
+	bash start.sh
 	
-	elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
+elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
 	clear
 	echo -e "\e[31m[\e[32m#\e[31m]\e[37m Güle güle...\n"
         echo -e "\e[31m[\e[32m#\e[31m]\e[37m Coder : By Apathe"
-
 	sleep 3
 	clear
 	exit
+else
+	bash start.sh
 fi
 
