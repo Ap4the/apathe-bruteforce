@@ -11,7 +11,7 @@ $ pkg install git -y
 
 $ pip2 install python2
 
-$ pkg install python -y
+$ apt install python
 
 $ pkg install php -y
 
