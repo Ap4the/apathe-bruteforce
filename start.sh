@@ -53,8 +53,7 @@ if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
 	python3 instagram.py $username $password -m 3
 
 elif [[ $islem_numarasi == 02 ||  $islem_numarasi == 2  ]]; then
-	cd apathe-wordlist/ &&
-	bash start.sh
+	cd /$HOME/apathe-bruteforce/apathe-wordlist && bash start.sh
 	
 elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
 	clear
