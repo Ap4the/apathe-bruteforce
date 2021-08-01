@@ -11,6 +11,8 @@ mv -v /home/Desktop/apathe-bruteforce/apathe-wordlist/wordlist.txt /home/Desktop
 mv -v /Desktop/apathe-bruteforce/apathe-wordlist/wordlist.txt /Desktop/apathe-bruteforce/apathe-bruteforce
 clear
 cd apathe-bruteforce/ && python3 install.py
+rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/install.py
+rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/requirements.txt
 clear
 banner(){
 	echo -e '\e[37m
@@ -55,14 +57,8 @@ if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
 elif [[ $islem_numarasi == 02 ||  $islem_numarasi == 2  ]]; then
 	cd apathe-wordlist/ &&
 	bash start.sh
-
-elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
-	clear
-	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/install.py
-	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/requirements.txt
-	bash /$HOME/apathe-bruteforce/start.sh
 	
-elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
+elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
 	clear
 	echo -e "\e[31m[\e[32m#\e[31m]\e[37m Güle güle...\n"
         echo -e "\e[31m[\e[32m#\e[31m]\e[37m Coder : By Apathe"
