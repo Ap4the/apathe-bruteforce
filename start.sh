@@ -1,5 +1,6 @@
 #!/data/data/com.termux/bin/bash
 #!/bin/bash
+chmod 777 *
 mv -v /$HOME/apathe-bruteforce/apathe-wordlist/wordlist.txt /$HOME/apathe-bruteforce/apathe-bruteforce
 mv -v /root/Masaüstü/apathe-bruteforce/apathe-wordlist/wordlist.txt /root/Masaüstü/apathe-bruteforce/apathe-bruteforce
 mv -v /Masaüstü/apathe-bruteforce/apathe-wordlist/wordlist.txt /Masaüstü/apathe-bruteforce/apathe-bruteforce
@@ -45,7 +46,6 @@ banner(){
 banner
 
 if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
-	chmod 777
 	echo -e ""
 	read -p $'\e[31m[\e[32m#\e[31m]\e[37m Hedef Kullanıcı Adı : ' username
 	read -p $'\n\e[31m[\e[32m#\e[31m]\e[37m Şifre Listesi : ' password
