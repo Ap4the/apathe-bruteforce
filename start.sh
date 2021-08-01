@@ -9,7 +9,7 @@ mv -v /home/Downloads/apathe-bruteforce/apathe-wordlist/wordlist.txt /home/Downl
 mv -v /home/Desktop/apathe-bruteforce/apathe-wordlist/wordlist.txt /home/Desktop/apathe-bruteforce/apathe-bruteforce
 mv -v /Desktop/apathe-bruteforce/apathe-wordlist/wordlist.txt /Desktop/apathe-bruteforce/apathe-bruteforce
 clear
-python /apathe-bruteforce/install.py
+cd apathe-bruteforce/ && python3 install.py
 clear
 banner(){
 	echo -e '\e[37m
