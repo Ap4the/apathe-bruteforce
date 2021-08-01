@@ -1,7 +1,7 @@
-Theós Hack Team | www.theosforum.org | Instagram - Brute Force v3.1
-Coder ; Apathe
-Brute Force v3.1 Nasıl Kurulur ? , aşağıda ki komutları sırayla yazarak başarılı bir şekil de Tool'u kurabilirsiniz.
-Komutlar ;
+# Theós Hack Team | www.theosforum.org | Instagram - Brute Force v3.1
+# Coder ; Apathe
+# Brute Force v3.1 Nasıl Kurulur ? , aşağıda ki komutları sırayla yazarak başarılı bir şekil de Tool'u kurabilirsiniz.
+# Komutlar ;
 
 $ pkg update -y
 
@@ -25,9 +25,9 @@ $ chmod 777 *
 
 $ bash start.sh
 
-Nasıl Kullanılır ?
+# Nasıl Kullanılır ?
 
-Yukarıda ki komutları kullanarak Tool'un kurulumunu tamamladıktan sonra Tool açılacaktır, ilk önce Wordlist oluşturmanız gerekeçek bu yüzden "02" seçeneğini seçip devam edin, daha sonra Wordlist oluşturmak için hedef kişi hakkında ki bilgileri yazdıktan sonra Wordlist Tool'a kaydedilecek daha sonra bash start.sh komutuyla Tool'u yeniden başlatmalısınız, artık Wordlistimiz hazır, Brute Force saldırısına başlamak için "01" seçeneğini seçip devam ediyoruz ve hedef kullanıcı adını yazıyoruz, daha sonra wordlist yolu kısmına ise "wordlist.txt" yazıyoruz ve Enter'a basıyoruz, Kurulumu doğru yaptıysanız Tool çalışacaktır, Tool'u tekrar başlatmak için "bash /$HOME/apathe-bruteforce/start.sh" komutunu yazıp Enter'a basmanız yeterli olacaktır.
+# Yukarıda ki komutları kullanarak Tool'un kurulumunu tamamladıktan sonra Tool açılacaktır, ilk önce Wordlist oluşturmanız gerekeçek bu yüzden "02" seçeneğini seçip devam edin, daha sonra Wordlist oluşturmak için hedef kişi hakkında ki bilgileri yazdıktan sonra Wordlist Tool'a kaydedilecek daha sonra bash start.sh komutuyla Tool'u yeniden başlatmalısınız, artık Wordlistimiz hazır, Brute Force saldırısına başlamak için "01" seçeneğini seçip devam ediyoruz ve hedef kullanıcı adını yazıyoruz, daha sonra wordlist yolu kısmına ise "wordlist.txt" yazıyoruz ve Enter'a basıyoruz, Kurulumu doğru yaptıysanız Tool çalışacaktır, Tool'u tekrar başlatmak için "bash /$HOME/apathe-bruteforce/start.sh" komutunu yazıp Enter'a basmanız yeterli olacaktır.
 Lütfen yanlızca test için kullanın ! , sorumluluk size aittir !
 
-#Apathe
+# Apathe
