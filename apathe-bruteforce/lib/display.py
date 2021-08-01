@@ -119,7 +119,12 @@ class Display(object):
                 Fore.YELLOW, Fore.RED, Fore.WHITE, Fore.RESET
             ))
         else:
-            print('\n[!] Saldırı Durduruluyor...')
+            print('\n[!] Saldırı Durduruluyor... Coder : By Apathe')
+
+        sleep(self.delay)
+                    ))
+        else:
+            print('\n[!] Coder : By Apathe')
 
         sleep(self.delay)
     
