@@ -1,6 +1,6 @@
-# Theós Hack Team | Instagram - Brute Force v3.1
+# Theós Hack Team | Instagram - Brute Force v3.2
 # Coder ; Apathe
-# Apathe Brute Force v3.1 Nasıl Kurulur ? , aşağıda ki komutları sırayla yazarak başarılı bir şekil de Tool'u kurabilirsiniz.
+# Apathe Brute Force v3.2 Nasıl Kurulur ? , aşağıda ki komutları sırayla yazarak başarılı bir şekil de Tool'u kurabilirsiniz.
 # Komutlar ;
 
 $ pkg update -y
