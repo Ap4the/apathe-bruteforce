@@ -7,11 +7,13 @@ $ pkg update -y
 
 $ pkg upgrade -y
 
-$ pip2 install python2
-
 $ pkg install git -y
 
-$ pkg i git python -y
+$ pip2 install python2
+
+$ pkg install python -y
+
+$ pkg install php -y
 
 $ pkg install bash -y
 
