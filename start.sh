@@ -55,7 +55,8 @@ elif [[ $islem_numarasi == 02 ||  $islem_numarasi == 2  ]]; then
 
 elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
 	clear
-	cd apathe-bruteforce/ && rm -rf install.py && rm -rf requirements.txt
+	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/install.py
+	rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/requirements.txt
 	bash start.sh
 	
 	elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
