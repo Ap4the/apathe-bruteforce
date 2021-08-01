@@ -30,10 +30,8 @@ banner(){
 	|
 	| 02 - \e[37mWordlist Oluştur\e[31m
         |
-        | 03 - \e[37mTool`un Açılışını Hızlandır\e[31m
+        | 03 - \e[37mÇıkış Yap\e[31m
         | 
-	| 04 - \e[37mÇıkış Yap\e[31m
-	|
         |_______________________________________
 
 
