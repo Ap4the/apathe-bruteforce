@@ -1,4 +1,4 @@
-# Date: 01/08/2021
+# Date: 02/08/2021
 # Author: Apathe
 # Description: Install file
 
@@ -33,15 +33,15 @@ class Install:
         self.is_reading = False 
 
     def install(self, name):
-        print('[+] İndiriliyor {} ...'.format(name))
-        cmd = 'Pip İndiriliyor {}'.format(name)
+        print('[+] Installing {} ...'.format(name))
+        cmd = 'pip install {}'.format(name)
         cmd = cmd.split()
 
         try:
             self.is_installing = True 
             Popen(cmd).wait()
         except:
-            print('[!] İndirme Başarısız {}'.format(name))
+            print('[!] Failed to install {}'.format(name))
         finally:
             print('\n')
             self.is_installing = False 
@@ -78,7 +78,7 @@ class Install:
                     self.stop()             
 
         else:
-            print('[!]  requirements.txt Dosyası Mevcut Değil'') 
+            print('[*] Unable to locate the file requirements.txt') 
     
     def stop(self):
         self.is_alive = False 
