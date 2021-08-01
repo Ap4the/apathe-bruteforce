@@ -122,11 +122,6 @@ class Display(object):
             print('\n[!] Saldırı Durduruluyor... Coder : By Apathe')
 
         sleep(self.delay)
-                    ))
-        else:
-            print('\n[!] Coder : By Apathe')
-
-        sleep(self.delay)
     
     def info(self, msg):
         self.clear()
