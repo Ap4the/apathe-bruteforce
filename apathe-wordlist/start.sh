@@ -18,15 +18,7 @@ start(){
 
 
 
-
-	rm -rf /$HOME/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /root/Masaüstü/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /Masaüstü/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /home/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /home/Masaüstü/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /home/Downloads/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /home/Desktop/apathe-bruteforce/apathe-wordlist/wordlist.txt
-	rm -rf /Desktop/apathe-bruteforce/apathe-wordlist/wordlist.txt
+	rm -rf ../apathe-wordlist/wordlist.txt
 	rm -rf wordlist.txt
 	cd Lib/ && rm -rf kayit.php
 	read -p $'\e[31m[\e[32m#\e[31m]\e[37m Adı : ' adi
