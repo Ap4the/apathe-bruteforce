@@ -35,7 +35,7 @@ banner(){
         |_______________________________________
 
 
-	\e[33m[\e[37m      Instagram Brute Force v3.1      \e[33m]
+	\e[33m[\e[37m      Instagram Brute Force v3.2      \e[33m]
 
 	'
 
