@@ -129,6 +129,6 @@ apt install php -y
 clear
 cd Lib/
 echo "Bu Tool Apathe Tarafından Kodlandı...." >> ok.txt
-cd ..
-bash start.sh	
+rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/install.py
+rm -rf /$HOME/apathe-bruteforce/apathe-bruteforce/requirements.txt
 fi
