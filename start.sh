@@ -51,6 +51,7 @@ if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
 	read -p $'\n\e[31m[\e[32m#\e[31m]\e[37m Şifre Listesi : ' password
 	cd apathe-bruteforce/ &&
 	python3 instagram.py $username $password -m 3
+
 elif [[ $islem_numarasi == 02 ||  $islem_numarasi == 2  ]]; then
 	cd apathe-wordlist/ && bash start.sh
 
