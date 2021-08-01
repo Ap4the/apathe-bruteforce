@@ -27,8 +27,10 @@ banner(){
 	|
 	| 02 - \e[37mWordlist Oluştur\e[31m
         |
-        | 03 - \e[37mÇıkış Yap\e[31m
-        |
+        | 03 - \e[37mTool`un Açılışını Hızlandır\e[31m
+        | 
+	| 04 - \e[37mÇıkış Yap\e[31m
+	|
         |_______________________________________
 
 
@@ -52,6 +54,11 @@ elif [[ $islem_numarasi == 02 ||  $islem_numarasi == 2  ]]; then
 	cd apathe-wordlist/ && bash start.sh
 
 elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
+	clear
+	cd apathe-bruteforce/ && rm -rf install.py && rm -rf requirements.txt
+	bash start.sh
+	
+	elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
 	clear
 	echo -e "\e[31m[\e[32m#\e[31m]\e[37m Güle güle...\n"
         echo -e "\e[31m[\e[32m#\e[31m]\e[37m Coder : By Apathe"
