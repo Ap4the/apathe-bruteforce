@@ -13,6 +13,8 @@ start(){
         |    Instagram : Ap4the\e[37m\e[31m
         |
         |    GitHub    : Ap4the\e[37m\e[31m
+	|
+	|    Version   : 3.2\e[37m\e[31m
         |
         |_______________________________________\n\n\n"
 	
