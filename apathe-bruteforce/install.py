@@ -33,7 +33,7 @@ class Install:
         self.is_reading = False 
 
     def install(self, name):
-        print('[i] Paket İndiriliyor | {} ...'.format(name))
+        print('[i] Paket İndiriliyor... | {} '.format(name))
         cmd = 'pip install {}'.format(name)
         cmd = cmd.split()
 
