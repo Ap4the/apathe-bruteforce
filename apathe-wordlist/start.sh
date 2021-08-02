@@ -4,7 +4,7 @@
 start(){
 	clear
 	echo -e "
-        ________________________________________
+        _________________________________________
         |
         |    THEOSFORUM.ORG \e[37m\e[31m
         |
@@ -14,10 +14,11 @@ start(){
         |
         |    GitHub    : Ap4the\e[37m\e[31m
 	|
-	|    Version   : 3.2\e[37m\e[31m
+	|    Wordlist Oluşturucu v3.2\e[37m\e[31m
         |
-        |_______________________________________\n\n\n"
+        |________________________________________\n\n\n"
 	
+	       [ Wordlist Oluşturucu v3.2 ]\e[37m\e[31m
 	
 	rm -rf ../apathe-wordlist/wordlist.txt
 	rm -rf wordlist.txt
