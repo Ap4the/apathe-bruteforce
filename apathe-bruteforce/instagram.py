@@ -1,6 +1,6 @@
-# Date: 12/29/2018
-# Author: Mohamed
-# Description: Instagram bruter
+# Date: 02.08.2021
+# Author: Apathe
+# Description: Instagram Brute Forcer v3.2
 
 from os.path import exists
 from lib.bruter import Bruter
