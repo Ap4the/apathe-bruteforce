@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf ../apathe-wordlist/wordlist.txt
-rm -rf wordlist.txt
 start(){
 	clear
 	echo -e "
@@ -19,8 +17,8 @@ start(){
         |
         |________________________________________\n\n\n"
 	
-	       [ Wordlist Oluşturucu v3.2 ]\e[37m\e[31m
-	
+	rm -rf ../apathe-wordlist/wordlist.txt
+	rm -rf wordlist.txt
 	cd Lib/ && rm -rf kayit.php
 	read -p $'\e[31m[\e[32m#\e[31m]\e[37m Adı : ' adi
 	read -p $'\e[31m[\e[32m#\e[31m]\e[37m Soyadı : ' soyad
